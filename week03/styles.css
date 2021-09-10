@@ -68,6 +68,16 @@ nav a:hover {
 #content {
   background-image: url("trans-bg.gif");
   border: 1px solid #CCCCCC;
-  magrin-left: 180px;
+  margin-left: 180px;
   padding: 10px;
+}
+
+
+footer {
+  text-align: center;
+  clear: both;
+}
+
+h1 {
+  color: #8C9273; 
 }

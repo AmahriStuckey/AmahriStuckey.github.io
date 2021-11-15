@@ -22,3 +22,26 @@ li {
   color: #000000;
   background: #00FF00;
 }
+
+:root {
+  --green: #00FF00;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+.light-theme {
+  --bg: var(--green);
+  --fontColor: var(--black);
+}
+.dark-theme {
+  --bg: var(--black);
+  --fontColor: var(--green);
+}
+
+* {
+  color: var(--fontColor);
+  font-family: helvetica;
+}
+body {
+    background: var(--bg);
+}
